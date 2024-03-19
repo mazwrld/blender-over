@@ -50,7 +50,8 @@ export default function Cursor({ isHovered }: { isHovered: boolean }) {
         width: size,
         height: size,
         filter: isHovered ? 'blur(30px)' : 'none',
-        transition: 'height 0.3s ease-out, width 0.3s ease-out, filter 0.3s ease-out'
+        transition:
+          'height 0.3s ease-out, width 0.3s ease-out, filter 0.3s ease-out',
       }}
     />
   )
